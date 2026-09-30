@@ -1,0 +1,54 @@
+.main {
+    background-color: rgb(246, 73, 73);
+    height: 100vh;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.main2 {
+    background-color: rgb(228, 226, 226);
+    height: 100vh;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.botao {
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    width: 200px;
+    height: 70px;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.botao:hover {
+    background-color: rgb(55, 55, 55);
+    cursor: pointer;
+}
+
+.botao:active {
+    background-color: rgb(251, 255, 0);
+    color: black;
+    cursor: default;
+    content: "";
+}
+
+h1 {
+    margin-left: 10px;
+    padding: 10px;
+    user-select: none;
+}
+
+h1:hover {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+}
